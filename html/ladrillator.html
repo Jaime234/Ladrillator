@@ -1,0 +1,41 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <title>LADRILLATOR</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/ladrillator.css">
+  <script src="../js/ladrillator.js"></script>
+
+
+</head>
+
+<body id = "body">
+  <embed src="../media/hit_brick.wav" height="0" width="0">
+  <header id = "cabecera" class="cabecera">
+    <nav>
+      <ul>
+        <li class="icono">LADRILLATOR</li>
+        <li><a href="ladrillator.html"> Ladrillator </a></li>
+        <li><a href="descripcion.html"> Descripción </a> </li>
+        <li><a href="autores.html"> Autores </a></li>
+        <li><a href="desarrollo.html"> Desarrollo </a></li>
+        <li><a href="referencias.html"> Referencias </a></li>
+
+      </ul>
+    </nav>
+  </header>
+  <div align="center"><canvas id="canvas" width="1280" height="720">
+    </canvas></div>
+
+  <div align = "center"><button id="jugar" onClick="start()"><img id = "startImg" width = "25" height = "20" src = '..\img\kisspng-computer-icons-button-play-boton-5b4b517fa58c63.5670839615316627196781.png'> </img></button>
+    <button id="sonido" ><img id = "sndImg" width = "25" height = "20" src = '..\img\kisspng-computer-icons-sound-icon-loudspeaker-volume-5b3902b947bb19.8998510115304629052938.png'> </img> </button>
+    <button id="completa"><img width = "25" height = "20" src = '..\img\icon.png'> </img></button>
+    <button id="music" disabled class = "disabled"><img width = "25" height = "20" src = '..\img\kisspng-portable-network-graphics-music-eighth-note-scalab-quaver-png-icon-png-repo-free-png-icons-5cc6a86c816f77.9799618715565231165302.png'> </img></button>
+  </div>
+
+</body>
+
+</html>
